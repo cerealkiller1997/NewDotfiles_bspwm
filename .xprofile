@@ -1,0 +1,6 @@
+$HOME/.screenlayout/resolucion.sh 
+bash ~/.config/polybar/launch.sh --forest &
+setxkbmap -layout es &
+nitrogen --restore &
+sxhkd &
+exec bspwm
